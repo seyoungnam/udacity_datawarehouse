@@ -1,7 +1,6 @@
 # PROJECT 3: Data Warehouse
 
 ## About The Project
-<hr>
 
 - Author: Seyoung Nam
 - E-mail: seyoung.nam@gmail.com
@@ -13,7 +12,6 @@
 <br>
 
 ## 1. Quick start
-<hr>
 
 First, we need to open up `evn_setup.ipynb` to set up the AWS working environments. Please follow the directions and run the codes in `evn_setup.ipynb` until STEP 4.
 
@@ -34,7 +32,6 @@ Please make sure to revisit `evn_setup.ipynb`, unblock the codes in STEP 5, and 
 <br>
 
 ## 2. Files in the repository
-<hr>
 
 - `create_erd.ipynb` plots the ER Diagram of the current DB on Amazon Redshift.
 - `create_tables.py` builds your DB tables on Amazon Redshift.
@@ -48,7 +45,6 @@ Please make sure to revisit `evn_setup.ipynb`, unblock the codes in STEP 5, and 
 <br>
 
 ## 3. Database design
-<hr>
 
 The current database has a star schema, consisting of one fact and four dimension tables. The `songplays` table, a fact table, captures users' activity in the music app and the rest tables such as `users`, `songs`, `artists`, and `time` represents basic information of participants and resources related to its business.
 
